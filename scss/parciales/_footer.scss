@@ -1,0 +1,45 @@
+#footer_columna_redes {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px; 
+
+    &_img_redes {
+        display: flex; 
+
+        &_logo_redes {
+            display: flex;
+            height: 55px;
+            width: 55px; 
+
+            &_logo_twit {
+                margin-left: 34px; }
+            &_logo_insta {
+                border-radius: 5px;
+                margin-left: 20px; }
+        }
+    }
+    &_final-centro {
+        display: flex;
+        justify-content: center;
+    
+        &_logo_ec{
+            height: 90px;
+            width: 100px;
+            margin-top: 70px;
+          }
+    }
+
+    &_buscar{
+        display: flex;
+        justify-content: center;
+        margin-top: 110px;
+    }
+
+    &_menu{
+        color: white;
+        display: block;
+        text-align: center;
+        text-decoration: none;
+    }      
+
+}

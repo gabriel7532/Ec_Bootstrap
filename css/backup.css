@@ -1,0 +1,65 @@
+/*
+Pacific blue #11AAB8
+oxford blue #131B2E
+*/
+
+a{
+    font-family: 'Raleway';
+    font-size: large;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.menu_footer{
+    color: white;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    
+}
+
+.final_centro_footer{
+    display: flex;
+    justify-content: center;
+    
+}
+.img_redes{
+    display: flex;
+ 
+}
+.logo_redes{
+    display: flex;
+    height: 75px;
+    width: 75px;
+   
+}
+.buscar{
+    display: flex;
+    justify-content: center;
+    margin-top: 110px;
+}
+
+.formulario_contacto{
+    padding: 100px 300px;
+}
+.boton_formulario{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    
+}
+.logo_insta{
+    border-radius: 5px;
+    margin-left: 20px;
+    
+}
+.logo_twit{
+    margin-left: 34px;
+}
+#columna_redes_footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+
+}

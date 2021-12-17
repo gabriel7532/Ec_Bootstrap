@@ -3,63 +3,170 @@ Pacific blue #11AAB8
 oxford blue #131B2E
 */
 
-a{
-    font-family: 'Raleway';
-    font-size: large;
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,700;1,700;1,900&display=swap');
+
+p{
+  font-family: 'Raleway';
 }
 
-.menu_footer{
-    color: white;
-    display: block;
-    text-align: center;
-    text-decoration: none;
-    
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.final_centro_footer{
-    display: flex;
-    justify-content: center;
-    
+a {
+  font-family: 'Raleway';
+  font-size: large;
+  text-decoration: none;
+  color: black;
+  font-weight: bold; }
+
+.main_video_pressBanca{
+  border-radius: 5px;
+}  
+.main_creatina_img{
+  width: 350px;
+  height: 300px; 
+  border-radius: 5px;
 }
-.img_redes{
-    display: flex;
- 
+.footer_menu {
+  color: white;
+  display: block;
+  text-align: center;
+  text-decoration: none; }
+
+.footer_final_centro {
+  display: flex;
+  justify-content: center;}
+
+  .footer_logo_ec{
+    height: 90px;
+    width: 100px;
+    margin-top: 70px;
+  }
+
+.footer_img_redes {
+  display: flex; }
+
+.footer_logo_redes {
+  display: flex;
+  height: 55px;
+  width: 55px; }
+
+.footer_buscar {
+  display: flex;
+  justify-content: center;
+  margin-top: 110px; }
+
+.formulario_contacto {
+  padding: 100px 300px; }
+
+.boton_formulario {
+  display: flex;
+  justify-content: center; 
 }
-.logo_redes{
-    display: flex;
-    height: 75px;
-    width: 75px;
-   
+.btn-outline-secondary{
+  padding: 2px;
+  margin-top: 5px;
+  border-radius: 5px;
+}
+
+.footer_logo_insta {
+  border-radius: 5px;
+  margin-left: 20px; }
+
+.footer_logo_twit {
+  margin-left: 34px; }
+
+#footer_columna_redes {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px; }
+
+.main_quienesSomos{
+  display: flex;
+  
+}
+.main_quienesSomos_img{
+  display: flex;
+  border-radius: 5px;
+}
+
+/*Media Queries*/
+@media (min-width:320px){
+  .main_video_pressBanca{
+    width: 300px;
+  }
+  .main_creatina_img{
+    width: 250px;
+    height: auto;
+  }
+  #columna_redes_footer{
+    margin: 5px;   
+    margin-left: 3px; 
+  }
+.buscar{
+  margin-top: 5px;
+}
+.logo_ec-footer{
+  margin-top: 5px;
+}
+
+}
+
+@media (min-width:374px) and (max-width:376px) {
+.main_creatina_img{
+  width: 330px;
+  height: auto;
 }
 .buscar{
-    display: flex;
-    justify-content: center;
-    margin-top: 110px;
+  margin-top: 35px;
+}
+.main_quienesSomos_img{
+  width: 270px;
 }
 
-.formulario_contacto{
-    padding: 100px 300px;
 }
-.boton_formulario{
-    display: flex;
-    justify-content: center;
-    margin-top: 40px;
-    
+@media (max-width:426px) {
+  .main_ejercicio{
+    margin-top: 20px;
+  }
+  .buscar{
+    margin-top: 35px;
+  }
+  
 }
-.logo_insta{
-    border-radius: 5px;
-    margin-left: 20px;
-    
+@media(max-width:769px){
+  #columna_frutas{
+    margin: 100px;
+  }
+  .main_contacto_formulario{
+    margin: 100px;
+  }
+  .main_contacto_formulario{
+    margin: 100px;
+  }
+  
 }
-.logo_twit{
-    margin-left: 34px;
+@media(min-width:769px){
+.main_contacto_formulario{
+  margin: 100px;
 }
-#columna_redes_footer{
-    display: flex;
-    justify-content: center;
-    margin-top: 100px;
+}
+@media (min-width:320px) and (max-width:426px){
+.main_contacto_formulario{
+  margin: 50px;
+}
+}
+
+@media (min-width:320px) and (max-width:1032px){
+  .main_quienesSomos{
+    display: block;
+  }
+  .main_quienesSomos_parrafo{
+    margin-top: 10px;
+  }
+  
 
 }
